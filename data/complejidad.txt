@@ -1,0 +1,9 @@
+put: En el peor caso, donde la clave no existe en la lista y se inserta al final, la complejidad temporal es O(n), donde n es el número de elementos en la lista. En el mejor caso, donde la clave ya existe y solo se actualiza el valor, la complejidad es O(1) si la lista está implementada correctamente.
+get: En el peor caso, donde la clave está en la última posición de la lista o no está presente, la complejidad es O(n). En el mejor caso, donde la clave está al principio de la lista, la complejidad es O(1).
+delete: En el peor caso, donde la clave está en la última posición de la lista o no está presente, la complejidad es O(n). En el mejor caso, donde la clave está al principio de la lista, la complejidad es O(1).
+contains: La complejidad es igual a la complejidad de get, por lo tanto, es O(n) en el peor caso y O(1) en el mejor caso.
+isEmpty y size: Ambos métodos tienen complejidad O(1) ya que solo implican una operación de acceso directo a una variable de instancia.
+min y max: Ambos métodos tienen complejidad O(n) ya que deben recorrer toda la lista una vez.
+floor y ceiling: Ambos métodos tienen complejidad O(n) ya que deben recorrer toda la lista una vez en el peor caso.
+rank y select: Ambos métodos tienen complejidad O(n) ya que deben recorrer toda la lista una vez en el peor caso.
+deleteMin y deleteMax: Ambos métodos tienen complejidad O(1) ya que solo implican operaciones simples en la cabeza de la lista.
